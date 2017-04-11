@@ -1,0 +1,33 @@
+Name = Marco Custom Function Layer;
+Version = 0.1;
+Author = "Marco Yuen 2017";
+KLL = 0.3c;
+Date = 2017-04-11;
+
+# Top Row - Left
+U"1"   : U"F1";
+U"2"   : U"F2";
+U"3"   : U"F3";
+U"4"   : U"F4";
+U"5"   : U"F5";
+U"Esc" : U"F11";
+
+# Top Row - Right
+U"Function6" : U"F12";
+U"6"         : U"F6";
+U"7"         : U"F7";
+U"8"         : U"F8";
+U"9"         : U"F9";
+U"0"         : U"F10";
+
+# Top-Middle Row
+U"U" : U"Minus";
+U"I" : U"Equals";
+
+# Middle Row - Right
+U"J" : U["Left Shift"] + U"9";
+U"K" : U["Left Shift"] + U"0";
+
+# Bottom-Middle Row
+U"M"     : U["Left Shift"] + U"Left Brace";
+U"Comma" : U["Left Shift"] + U"Right Brace";
