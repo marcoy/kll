@@ -2,7 +2,7 @@ Name = default;
 Version = 0.1;
 Author = "Marco Yuen 2017";
 KLL = 0.3c;
-Date = 2017-04-10;
+Date = 2017-04-11;
 
 # Make default layout more like the original ErgoDox default layout
 # https://keyboard-configurator.massdrop.com/ext/ergodox/
@@ -10,17 +10,14 @@ Date = 2017-04-10;
 # The defaultMap.kll in BaseMap cannot have any duplicate keys (or they cannot be fully remapped later)
 # But, the DefaultMap can start to duplicate keys without any issues
 
-# Top Row - Right
-U"Function6" : U"Lock2";
-
+# -----------------------------------------------------------------------------
+# Left
+# -----------------------------------------------------------------------------
 # Top-Middle Row - Left
 U"Function1" : U"Lock1";
 
 # Bottom-Middle Row - Left
 U"Function2" : U"Function1"; # Set Function2 to be layer shift 1
-
-# Bottom-Middle Row - Right
-U"Function7" : U"Function1"; # Set Function7 to be layer shift 1
 
 # Bottom Row - Left
 U"Function5" : U"LGui";
@@ -28,3 +25,12 @@ U"Function4" : layerShift(1);
 U"Function3" : U"Backtick";
 U"Backtick"  : U"LAlt";
 U"LGui"      : U"LCtrl";
+
+# -----------------------------------------------------------------------------
+# Right
+# -----------------------------------------------------------------------------
+# Top Row - Right
+U"Function6" : U"Lock2";
+
+# Bottom-Middle Row - Right
+U"Function7" : U"Function1"; # Set Function7 to be layer shift 1
