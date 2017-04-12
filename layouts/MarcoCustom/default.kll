@@ -26,6 +26,9 @@ U"Function3" : U"Backtick";
 U"Backtick"  : U"LAlt";
 U"LGui"      : U"LCtrl";
 
+# Combination
+U"Left Shift" + U"Equals" : flashMode();
+
 # -----------------------------------------------------------------------------
 # Right
 # -----------------------------------------------------------------------------
@@ -34,3 +37,6 @@ U"Function6" : U"Lock2";
 
 # Bottom-Middle Row - Right
 U"Function7" : U"Function1"; # Set Function7 to be layer shift 1
+
+# Combination
+U"Right Shift" + U"Minus" : flashMode();
