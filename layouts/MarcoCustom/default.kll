@@ -21,7 +21,7 @@ U"Function2" : U"Function1"; # Set Function2 to be layer shift 1
 
 # Bottom Row - Left
 U"Function5" : U"LGui";
-U"Function4" : layerShift(1);
+U"Function4" : layerShift(1) + LCDLayerDisplay();
 U"Function3" : U"Backtick";
 U"Backtick"  : U"LAlt";
 U"LGui"      : U"LCtrl";
