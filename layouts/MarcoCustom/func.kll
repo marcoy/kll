@@ -4,6 +4,9 @@ Author = "Marco Yuen 2017";
 KLL = 0.3c;
 Date = 2017-04-11;
 
+# -----------------------------------------------------------------------------
+# Left
+# -----------------------------------------------------------------------------
 # Top Row - Left
 U"1"   : U"F1";
 U"2"   : U"F2";
@@ -12,6 +15,12 @@ U"4"   : U"F4";
 U"5"   : U"F5";
 U"Esc" : U"F11";
 
+# Bottom Row - Left
+U"LGui" : layerShift(2) + LCDLayerDisplay();
+
+# -----------------------------------------------------------------------------
+# Right
+# -----------------------------------------------------------------------------
 # Top Row - Right
 U"Function6" : U"F12";
 U"6"         : U"F6";
@@ -20,7 +29,7 @@ U"8"         : U"F8";
 U"9"         : U"F9";
 U"0"         : U"F10";
 
-# Top-Middle Row
+# Top-Middle Row - Right
 U"U" : U"Minus";
 U"I" : U"Equals";
 
@@ -28,6 +37,6 @@ U"I" : U"Equals";
 U"J" : U["Left Shift"] + U"9";
 U"K" : U["Left Shift"] + U"0";
 
-# Bottom-Middle Row
+# Bottom-Middle Row - Right
 U"M"     : U["Left Shift"] + U"Left Brace";
 U"Comma" : U["Left Shift"] + U"Right Brace";
